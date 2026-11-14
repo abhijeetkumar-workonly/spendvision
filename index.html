@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spendvision Privacy Policy</title>
+<style>
+  :root { --ink:#1b1a22; --cream:#fbf6ee; --orange:#f26b2a; --muted:#5d5a66; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#f3eee6; --cream:#16151c; --muted:#a9a5b2; } }
+  body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; color:var(--orange); }
+  .date { color:var(--muted); margin:0 0 24px; }
+  .tldr { border-left:4px solid var(--orange); padding:12px 16px; background:rgba(242,107,42,.08); border-radius:8px; }
+  a { color:var(--orange); }
+</style>
+</head>
+<body>
+<main>
+<h1>Spendvision Privacy Policy</h1>
+<p class="date">Effective 14 November 2026</p>
+
+<p class="tldr"><strong>In short:</strong> Spendvision has no internet access. Your SMS and spending data stay on your phone. We don't collect, store on servers, share or sell any of it.</p>
+
+<h2>Who we are</h2>
+<p>Spendvision ("the app", package <code>com.olfoxacin.finance_manager</code>) is an expense tracker for Android. "We" means the app's developer.</p>
+
+<h2>Data the app uses</h2>
+<ul>
+  <li><strong>SMS messages (READ_SMS).</strong> With your permission, the app reads bank and payment SMS on your device to find transaction amounts, merchants and dates. Messages are processed only on your phone. Non-transaction messages are ignored and not stored.</li>
+  <li><strong>Transactions, budgets and settings</strong> you create or that are parsed from SMS. These are saved in a local database on your device.</li>
+  <li><strong>Notifications (POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED).</strong> Used only to show your optional daily spending recap and to reschedule it after a restart.</li>
+</ul>
+
+<h2>What we do not do</h2>
+<ul>
+  <li>The app does not request the INTERNET permission, so it cannot send your data anywhere.</li>
+  <li>No accounts, analytics, advertising, tracking or crash-reporting SDKs.</li>
+  <li>Your data is excluded from Google cloud backup. It can move to a new phone only through a direct device-to-device transfer you start.</li>
+  <li>We never sell or share your data with anyone.</li>
+</ul>
+
+<h2>Exporting your data</h2>
+<p>If you choose "Export", the app writes a CSV file to a location you pick. After that, the file is under your control and handled by whichever app or service you save it to.</p>
+
+<h2>Google Play in-app review</h2>
+<p>The app may ask you to rate it using Google Play's in-app review prompt. That prompt is provided by Google Play and is covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. The app does not receive your rating or review.</p>
+
+<h2>Keeping or deleting your data</h2>
+<p>Your data stays on your device until you delete it. Uninstalling the app or clearing its storage removes it permanently. You can revoke SMS or notification permissions at any time in Android Settings.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we will update this page and the effective date above.</p>
+
+<h2>Contact</h2>
+<p>Questions? Open an issue at <a href="https://github.com/abhijeetkumar-workonly/spendvision/issues">github.com/abhijeetkumar-workonly/spendvision/issues</a>.</p>
+</main>
+</body>
+</html>
